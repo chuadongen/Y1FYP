@@ -1,0 +1,104 @@
+
+body {
+    font-family: "SegoeUI Bold",Sans-serif !important;
+    background-color: rgb(32, 32, 32) !important;
+}
+.navbar-brand{
+    font: "SegoeUI Bold",Sans-serif !important;
+}
+/* -----------------navbar----------------- */
+
+.ict-text-color {
+    color: #87458b !important;
+}
+#hero-image{
+    background-image:url("../img/hero-image.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-image.jpg");
+    /* Set a specific height */
+    height: 80vh;
+    /* pls figure out where did 5% go, 5 went to navbar */
+    box-sizing: border-box;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+
+    margin-bottom: 20vh;
+}
+.hero-text{
+    text-align: center;
+    height: 100%;
+}
+.hero-text .main-text,
+.hero-text .top-text{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px currentColor;
+}
+.hero-text .top-text{
+    font-size: 1.5rem;
+    padding: 5px 25px;
+    display: inline-block;
+    font-weight: 600;
+
+}
+/* why cant i margin these 2 */
+.hero-text .main-text{
+    font-size: 2.75rem;
+    padding: 5px 25px;
+    font-weight: 700;
+}
+.hero-text .bottom-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    
+}
+/* -----------------navbar----------------- */
+/* -----------------footer----------------- */
+footer{
+    margin-top: 10%;
+    background-color: #87458b;
+}
+/* -----------------footer----------------- */
+/* -----------------home----------------- */
+#home-divider{
+    height: 10%;
+
+}
+.home-mod-img{
+   background-image: none;
+   max-height: 160px;
+}
+#home-middle-row{
+    margin:50px 0px;
+}
+#home-box{
+    border: 5px solid #87458b ;
+    border-radius: 25px;
+    padding: 50px;
+    background-color: white;
+}
+.prgi{
+    content: url("../img/modules/prgi.png");
+}
+.cm{
+    content: url("../img/modules/cm.png");
+}
+.prgii{
+    content: url("../img/modules/prgii.png");
+}
+.as{
+    content: url("../img/modules/as.png");
+}
+.db{
+    content: url("../img/modules/db.png");
+}
+.id{
+    content: url("../img/modules/id.png");
+}
+/* -----------------home----------------- */
