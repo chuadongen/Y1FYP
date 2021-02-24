@@ -1,10 +1,13 @@
 
 body {
     font-family: "SegoeUI Bold",Sans-serif !important;
-    background-color: rgb(32, 32, 32) !important;
 }
 .navbar-brand{
     font: "SegoeUI Bold",Sans-serif !important;
+}
+.navbar{
+    box-shadow:3px 3px 5px 6px rgb(43, 43, 43); 
+    z-index: 1;
 }
 /* -----------------navbar----------------- */
 
@@ -32,17 +35,18 @@ body {
 .hero-text{
     text-align: center;
     height: 100%;
+
 }
 .hero-text .main-text,
 .hero-text .top-text{
     background-color: white;
     border-radius: 10px;
     box-shadow: 5px 5px 0px currentColor;
+
 }
 .hero-text .top-text{
     font-size: 1.5rem;
     padding: 5px 25px;
-    display: inline-block;
     font-weight: 600;
 
 }
@@ -51,6 +55,7 @@ body {
     font-size: 2.75rem;
     padding: 5px 25px;
     font-weight: 700;
+    margin-top: 50px;
 }
 .hero-text .bottom-text {
     font-size: 1.5rem;
@@ -63,6 +68,7 @@ body {
 footer{
     margin-top: 10%;
     background-color: #87458b;
+    box-shadow:3px 3px 5px 6px #ccc; 
 }
 /* -----------------footer----------------- */
 /* -----------------home----------------- */
