@@ -129,11 +129,12 @@ footer{
     display: block;
 }
 #module{
+    font-size: 0.9vw;
     color: rgb(187, 184, 184);
     font-weight: 700;
 }
 #topic{
-    font-size: 30px;
+    font-size: 1.5vw;
     color: white;
     font-weight: 700;
 }
@@ -144,15 +145,30 @@ footer{
     border: 5px solid #87458b ;
     border-radius: 25px;
     box-sizing: border-box;
+    height: 77vh;
 }
 #main-content-row{
     height: inherit;
 }
 #module-nav{
-    height: inherit;
+    width: 13vw;
+    /* margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh; */
+    margin: 2vh 1vw;
+    overflow-y: scroll;
 }
 #current-topic{
-    height: inherit;
+    width: 84vw;
+    margin: 2vh 0;
 
+}
+#module-nav>a{
+    display: block;
+    margin-left: 20px;
+    padding: 10px;
+
+    border: 1px solid grey;
 }
 /* -----------------prgi----------------- */
