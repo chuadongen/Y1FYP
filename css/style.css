@@ -5,15 +5,26 @@ body {
 .navbar-brand{
     font: "SegoeUI Bold",Sans-serif !important;
 }
-.navbar{
-    box-shadow:3px 3px 5px 6px rgb(43, 43, 43); 
-    z-index: 1;
-}
-/* -----------------navbar----------------- */
-
 .ict-text-color {
     color: #87458b !important;
 }
+
+/* -----------------navbar----------------- */
+.navbar{
+    box-shadow: 0px 2px 6px -1px rgba(0,0,0,0.6);
+    z-index: 1;
+    height: 7vh;
+}
+/* -----------------navbar----------------- */
+/* -----------------footer----------------- */
+footer{
+    margin-top: 10%;
+    background-color: #87458b;
+    box-shadow: 0px -1px 6px -1px rgba(0,0,0,0.6);
+
+}
+/* -----------------footer----------------- */
+/* -----------------home----------------- */
 #hero-image{
     background-image:url("../img/hero-image.jpg");
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-image.jpg");
@@ -29,12 +40,18 @@ body {
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-
-    margin-bottom: 20vh;
+    margin-bottom: 0;
+}
+#home-divider{
+    height: 13vh;
 }
 .hero-text{
     text-align: center;
     height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: center;
 
 }
 .hero-text .main-text,
@@ -63,19 +80,7 @@ body {
     color: white;
     
 }
-/* -----------------navbar----------------- */
-/* -----------------footer----------------- */
-footer{
-    margin-top: 10%;
-    background-color: #87458b;
-    box-shadow:3px 3px 5px 6px #ccc; 
-}
-/* -----------------footer----------------- */
-/* -----------------home----------------- */
-#home-divider{
-    height: 10%;
 
-}
 .home-mod-img{
    background-image: none;
    max-height: 160px;
@@ -108,3 +113,46 @@ footer{
     content: url("../img/modules/id.png");
 }
 /* -----------------home----------------- */
+/* -----------------prgi----------------- */
+#title {
+    box-sizing: border-box;
+    background-color: #87458b ;
+    background-color: #521e66 ;
+    height: 12vh;
+}
+#title-box{
+    position: relative;
+    top:25%;
+    margin-left: 30px;
+}
+#title span{
+    display: block;
+}
+#module{
+    color: rgb(187, 184, 184);
+    font-weight: 700;
+}
+#topic{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+#main-content{
+    height: 81vh;
+}
+#main-content>*>*{
+    border: 5px solid #87458b ;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+#main-content-row{
+    height: inherit;
+}
+#module-nav{
+    height: inherit;
+}
+#current-topic{
+    height: inherit;
+
+}
+/* -----------------prgi----------------- */
