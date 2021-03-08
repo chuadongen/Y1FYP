@@ -129,12 +129,12 @@ footer{
     display: block;
 }
 #module{
-    font-size: 0.9vw;
+    font-size: 1em;
     color: rgb(187, 184, 184);
     font-weight: 700;
 }
 #topic{
-    font-size: 1.5vw;
+    font-size: 1.5em;
     color: white;
     font-weight: 700;
 }
@@ -165,4 +165,25 @@ footer{
 h5{
     font-weight: bold !important;
 }
+#Singapore{
+    background-color: green;
+    height: 100px;
+    width: 200px;
+}
+#Bishan{
+    background-color: blue;
+    height: 60px;
+    width: 160px;
+    position: relative;
+    top:20px;
+    left: 20px;
+    color: white;
+}
+@media only screen and (max-width: 990px) {
+    #title{
+        height: 10vh ;
+    }
+  }
+
+
 /* -----------------prgi----------------- */
